@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+body{
+    color: azure;
+    background: #090a1a;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 3rem 0 2rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+    font-size:1.2rem;
+    font-weight:600;
+    color: #647bff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 1.8rem;
+}
+.nav-link{
+    font-size: 1rem;
+    padding: 4px 8px;
+    border-radius: 0.2rem;
+    color: azure
+}
+.nav-link:hover{
+    color: #647bff;
+    background:#171b3c ;
+    transition: 0.3s all linear;
+}
+.menu{
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+}
+.menu-content{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #778bfc;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu-text h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1.8rem;
+    color: #647bff;
+}
+.menu-text h2{
+    font-size: 3.5rem;
+    line-height: 4.8rem;
+}
+.menu-text p{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.menu-text .color{
+    color: #647bff;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.redes .bx{
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: azure;
+    background: #171b3c;
+}
+.redes .bx:hover{
+    background: #647bff;
+    transition: 0.3s all linear;
+}
