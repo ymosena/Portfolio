@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yasmin Mosena</title>
-    <link rel="stylesheet" href="../static/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <header>
-        <div class="nav container">
-            <a href="#" class="logo">Yasmin Mosena</a>
-            <ul class="navbar">
-                <li><a href="index.html" class="nav-link">Menu</a></li>
-                <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
-                <li><a href="sobremim.html" class="nav-link">Sobre Mim</a></li>
-            </ul>
-        </div>
-    </header>
+{% extends "index.html" %}
+{% block container %}
     <section class="Sobre Mim" >
         <h2 class="heading">SOBRE MIM</h2>
         <div class="sobre-content">
@@ -29,3 +10,4 @@
             </div>
         </div>
     </section>
+{% endblock %}     

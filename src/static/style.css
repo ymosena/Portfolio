@@ -204,3 +204,13 @@ header{
     text-align: justify;
     column-gap: 0.5rem;
 }
+.projeto{
+    min-height: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+}
+.img_projeto{
+    width: 45vw;
+}

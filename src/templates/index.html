@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+{% block head %}
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,26 @@
     <link rel="stylesheet" href="../static/style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+{% endblock %}
+{% block body %}
 <body>
+    {% block navbar %}
     <header>
         <div class="nav container">
             <a href="#" class="logo">Yasmin Mosena</a>
             <ul class="navbar">
-                <li><a href="index.html" class="nav-link">Menu</a></li>
-                <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
-                <li><a href="sobremim.html" class="nav-link">Sobre Mim</a></li>
+                <li><a href="/" class="nav-link">Menu</a></li>
+                <li><a href="projetos" class="nav-link">Portfólio</a></li>
+                <li><a href="sobremim" class="nav-link">Sobre Mim</a></li>
             </ul>
         </div>
     </header>
+    {% endblock %}
+    {% block container %}
     <section class="menu container">
         <div class="menu-content">
             <div class="menu-img">
-                <img src="" alt="">
+                <img src="../static/img/Foto.jfif">
             </div>
             <div class="menu-text">
                 <h3>Olá!</h3>
@@ -38,5 +44,7 @@
             </div>
         </div>
     </section>
+    {% endblock %}
 </body>
+{% endblock %}
 </html>
